@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Uygulamam</string>
+    <string name="yeni_hesap">Yeni hesap oluştur</string>
+    <string name="hesabim_var">Hesabım var</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="email">Email</string>
+    <string name="password">Şifre</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="login_with_your_account">Giriş Yapınız</string>
+    <string name="login">Giriş Yap</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profilim">Profilim</string>
+    <string name="arkadaslar">Arkadaşlar</string>
+    <string name="cikis">Çıkış</string>
+</resources>

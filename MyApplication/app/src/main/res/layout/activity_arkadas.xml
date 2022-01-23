@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArkadasActivity">
+
+
+    <Button
+        android:id="@+id/buttonprofil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonmesaj"
+        android:layout_marginBottom="65dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/profilim"></Button>
+
+    <Button
+        android:id="@+id/buttonmesaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:text="@string/arkadaslar"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/buttonçıkış"
+        android:layout_marginBottom="20dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/buttonçıkış"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="82dp"
+        android:background="@color/purple_500"
+        android:text="@string/cikis"></Button>
+
+</RelativeLayout>
